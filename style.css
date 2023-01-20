@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a:hover{
+    color: #98f516 !important;
+}
+
+.header{
+    background-color: #264653;
+}
+.btn-color{
+    background-color: #E76F51;
+    width: auto;
+}
+.banner-title{
+    font-size: 3rem;
+}
+.section-title{
+    font-size: 3em;
+    font-weight: 600;
+}
+.sec-sub-title{
+
+    /* display: inline; */
+    color: #E76F51;
+    
+
+    
+
+}
+
+h6:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 6%;
+    border: 1px solid #E76F51;
+    margin: 0 auto;
+ }
+
+.img-grayscale{
+    filter: grayscale(1);
+}
+.bg-btn-color{
+    background-color: #E76F51;
+}
+.card-img-style{
+    height: 149px;
+    width: 149px;
+}
+.fa-star.filled{
+    color: #E76F51;
+}
+.fa-star.empty{
+    color: #E76F51;
+}
+.btn:hover{
+ background-color: #98f516;
+}
+.booking-btn:hover{
+    background-color: rgb(31, 237, 17) !important;
+    transform: scale(1.1);
+}
+@media screen and (max-width:600px){
+    *{
+        margin: 0 !important;
+    }
+    h6:after {
+        display: none;
+    }
+    .video iframe{
+        width: fit-content;
+    }
+
+}
